@@ -17,7 +17,7 @@ public class ClubeController {
     }
 
     @GetMapping("/")
-    public Iterable<Clube> teste() {
+    public Iterable<Clube> getClubes() {
         return action.findAll();
     }
 
